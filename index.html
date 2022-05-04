@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alef&family=Salsa&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <section class="section1">
+      <div class="text-container">
+        <nav>
+          <img src="/img/logo.jpg" alt="" class="logo" />
+          <div class="links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li>Home</li>
+              <li>About</li>
+              <li>Skills</li>
+              <li>Services</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <i class="fa-bars fa" onclick="showMenu()"></i>
+        </nav>
+        <p>Hello,It’s Me</p>
+        <h1>DIVYA LAVANDE</h1>
+        <p id="webd">Web Designer & Developer</p>
+        <p class="btn1">HIRE ME</p>
+
+        <img class="icon" src="/img/github-brands.svg" alt="" />
+        <img class="icon icon2" cl src="/img/linkedin-in-brands.svg" alt="" />
+        <img class="icon icon2" src="/img/envelope-solid.svg" alt="" />
+      </div>
+
+      <div class="img-container">
+        <img class="img1" src="/img/img1.jpg" alt="" />
+      </div>
+    </section>
+    <section class="section2">
+      <h2>About Me</h2>
+      <div class="about-sec">
+        <img class="img2" src="/img/dimg.jpg" alt="" />
+        <div class="about-textarea">
+          <p class="about-text">
+            Hello there, myself Divya Lavande and I am passionate about
+            desgning. I hail from India and I am currently persuing my B.Tech in
+            CSE at CSMSS Chh. Shahu College of Engineering Aurangabad,
+            Maharashtra, India. My skills include Web Designing ,Logo Designing
+            ,Poster Designing ,Template Designing. I also love to develop
+            webpages, websites. I would love to work on new projects.
+          </p>
+          <p class="btn1" id="btn2">DOWNLOAD CV</p>
+        </div>
+      </div>
+    </section>
+    <section class="section3">
+      <h2>Skills</h2>
+      <div class="skillset">Front-End Developer</div>
+      <div class="skillset">UI/UX Designer</div>
+
+      <div class="skillset">Programmer</div>
+      <div class="skillset">Graphic Designer</div>
+    </section>
+    <section class="section4">
+      <h2>Services</h2>
+      <div class="sec-blk">Poster Designing</div>
+      <div class="sec-blk">UI <br />Designing</div>
+      <div class="sec-blk">Logo Designing</div>
+      <div class="sec-blk">Website Designing</div>
+    </section>
+    <section class="section5">
+      <h2>Contact-Me</h2>
+      <p>
+        How Can I Help You? Let Me Know.<br />
+        Feel Free to Drop a Text!
+      </p>
+      <div class="div">Your Name</div>
+      <div class="div">E-Mail</div>
+      <div class="div div3">Drop Your Messsage Here</div>
+      <p class="btn1" id="btn3">SEND</p>
+      <div class="footer">
+        <div class="box">
+          <img src="/img/facebook-square-brands.svg" alt="" />
+        </div>
+        <div class="box">
+          <img src="/img/instagram-square-brands.svg" alt="" />
+        </div>
+        <div class="box">
+          <img src="/img/twitter-square-brands.svg" alt="" />
+        </div>
+        <div class="box"><img src="/img/linkedin-in-brands.svg" alt="" /></div>
+      </div>
+      <div class="copyright">
+        <img src="/img/copyright-solid.svg" alt="" />
+        <p>All Copyrights Reserved by Divya Lavande</p>
+      </div>
+    </section>
+    <!----Javascript for toggle menu---->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0px";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
