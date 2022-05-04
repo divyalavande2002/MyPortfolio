@@ -323,7 +323,7 @@ h2 {
   .copyright img {
     height: 15px;
     width: 15px;
-    margin: 12px 0px 0px 80px;
+    margin: 12px 0px 0px 40px;
   }
   
   .box {
@@ -331,7 +331,7 @@ h2 {
     width: 80px;
     background-color: rgba(188, 3, 3, 1);
     border-radius: 5px;
-    margin: 40px 0px 0px 32px;
+    margin: 40px 0px 0px 30px;
   }
   .box img {
     height: 50px;
