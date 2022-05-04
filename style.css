@@ -284,12 +284,12 @@ h2 {
     display: block;
   }
   h1 {
-    font-size: 44px;
+    font-size: 42px;
     text-align: center;
     margin: 0px 0px 0px 60px;
   }
   h2{
-    font-size: 32px;
+    font-size: 30px;
   }
   section p {
     font-size: 25px;
@@ -297,7 +297,7 @@ h2 {
     margin: 0px 0px 0px 60px;
   }
   #webd {
-    font-size: 25px;
+    font-size: 22px;
     text-align: center;
     line-height: normal;
     margin: 40px 0px 0px 60px;
@@ -323,20 +323,20 @@ h2 {
   .copyright img {
     height: 15px;
     width: 15px;
-    margin: 12px 0px 0px 40px;
+    margin: 12px 0px 0px 30px;
   }
   
   .box {
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     background-color: rgba(188, 3, 3, 1);
     border-radius: 5px;
-    margin: 40px 0px 0px 30px;
+    margin: 30px 0px 0px 20px;
   }
   .box img {
     height: 50px;
     width: 50px;
-    padding: 15px 0px 0px 15px;
+    padding: 5px 0px 0px 5px;
   }
   .about-sec {
     display: inline-block;
@@ -350,28 +350,28 @@ h2 {
   }
   #btn2 {
     height: 25px;
-    width: 200px;
+    width: 180px;
     font-size: 22px;
     margin:25px 0 30px 80px ;
   }
   #btn3{
-    font-size: 25px;
+    font-size: 22px;
 
   }
   .about-text{
-    font-size: 25px;
+    font-size: 22px;
   }
   .skillset{
     height:40px ;
-    width: 300px;
-    margin: 10px 20px 0px 45px;
+    width: 280px;
+    margin: 10px 0px 0px 10px;
   padding: 10px 0px 10px 0px;
   font-size: 25px;
   }
   .sec-blk{
     height: 100px;
     width: 140px;
-    font-size: 25px;
+    font-size: 22px;
     padding: 30px 0px 0px 0px;
     margin: 30px 0px 0px 30px;
   }
@@ -387,11 +387,11 @@ h2 {
    
   }
   .section5 p{
-    font-size: 25px;
+    font-size: 22px;
   }
   .div{
     height: 30px;
-    width: 320px;
+    width: 300px;
     margin:10px auto;
     padding-top:10px; 
     
@@ -400,10 +400,10 @@ h2 {
     height: 70px;
   }
   .copyright p {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Salsa;
-    padding-top: 8px;
-    margin-left: 10px;
+    padding-top: 6px;
+   
   }
 }
 
