@@ -363,7 +363,7 @@ h2 {
   }
   .skillset{
     height:40px ;
-    width: 370px;
+    width: 340px;
     margin: 10px 20px 0px 45px;
   padding: 10px 0px 10px 0px;
   font-size: 25px;
@@ -373,7 +373,7 @@ h2 {
     width: 140px;
     font-size: 25px;
     padding: 30px 0px 0px 0px;
-    margin: 30px 0px 0px 50px;
+    margin: 30px 0px 0px 30px;
   }
   .section4 {
     background: rgba(188, 3, 3, 1);
@@ -391,7 +391,7 @@ h2 {
   }
   .div{
     height: 30px;
-    width: 400px;
+    width: 350px;
     margin:10px auto;
     padding-top:10px; 
     
