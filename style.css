@@ -325,13 +325,16 @@ h2 {
     width: 15px;
     margin: 12px 0px 0px 30px;
   }
+  .copyright{
+  margin top:20px;
+  }
   
   .box {
     height: 70px;
     width: 70px;
     background-color: rgba(188, 3, 3, 1);
     border-radius: 5px;
-    margin: 30px 0px 0px 10px;
+    margin: 20px 0px 0px 15px;
   }
   .box img {
     height: 50px;
@@ -345,7 +348,7 @@ h2 {
   .img2 {
     border-radius: 20px;
     width: 80%;
-    margin: 20px 0px 10px 50px;
+    margin: 20px 0px 10px 30px;
     height: 400px;
   }
   #btn2 {
@@ -357,6 +360,7 @@ h2 {
   #btn3{
     font-size: 22px;
     width:120px;
+    margin-top:20px;
 
   }
   .about-text{
@@ -366,7 +370,7 @@ h2 {
     height:40px ;
     width: 280px;
     margin: 10px 0px 0px 30px;
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0px 10px 10px;
   font-size: 25px;
   }
   .sec-blk{
@@ -374,7 +378,7 @@ h2 {
     width: 140px;
     font-size: 22px;
     padding: 30px 0px 0px 10px;
-    margin: 30px 0px 0px 20px;
+    margin: 30px 0px 0px 15px;
   }
   .section4 {
     background: rgba(188, 3, 3, 1);
